@@ -1,0 +1,132 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{451C45F3-2E37-4FE5-B481-7BF5B2660972}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Programa</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.dll" />
+    <Content Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.exe" />
+    <Content Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.pdb" />
+    <Content Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.csproj.FileListAbsolute.txt" />
+    <Content Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.dll" />
+    <Content Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.exe" />
+    <Content Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.pdb" />
+    <Content Include="AppConsole\AppConsole.sln" />
+    <Content Include="Programa-OO-\.gitignore" />
+    <Content Include="Stephang97\Programa-OO-\.gitignore" />
+    <Content Include="Stephang97\Programa-OO-\.git\ms-persist.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AppConsole\AplicacionDeConsola\AplicacionDeConsola.csproj" />
+    <None Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.deps.json" />
+    <None Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.runtimeconfig.dev.json" />
+    <None Include="AppConsole\AplicacionDeConsola\bin\Debug\netcoreapp3.1\AplicacionDeConsola.runtimeconfig.json" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\AplicacionDeConsola.csproj.nuget.dgspec.json" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\AplicacionDeConsola.csproj.nuget.g.props" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\AplicacionDeConsola.csproj.nuget.g.targets" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.AssemblyInfoInputs.cache" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.assets.cache" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.csproj.CoreCompileInputs.cache" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.csprojAssemblyReference.cache" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.genruntimeconfig.cache" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\project.assets.json" />
+    <None Include="AppConsole\AplicacionDeConsola\obj\project.nuget.cache" />
+    <None Include="Programa-OO-\.vs\Programa-OO-\v16\.suo" />
+    <None Include="Programa-OO-\.vs\slnx.sqlite" />
+    <None Include="Programa-OO-\.vs\VSWorkspaceState.json" />
+    <None Include="Programa-OO-\LICENSE" />
+    <None Include="Programa-OO-\README.md" />
+    <None Include="Stephang97\Programa-OO-\.git\config" />
+    <None Include="Stephang97\Programa-OO-\.git\description" />
+    <None Include="Stephang97\Programa-OO-\.git\HEAD" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\applypatch-msg.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\commit-msg.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\post-update.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-applypatch.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-commit.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-merge-commit.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-push.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-rebase.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\pre-receive.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\hooks\update.sample" />
+    <None Include="Stephang97\Programa-OO-\.git\index" />
+    <None Include="Stephang97\Programa-OO-\.git\info\exclude" />
+    <None Include="Stephang97\Programa-OO-\.git\logs\HEAD" />
+    <None Include="Stephang97\Programa-OO-\.git\logs\refs\heads\master" />
+    <None Include="Stephang97\Programa-OO-\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\02\802e1bd19acb23358674988501089e08fd6668" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\1c\214b2895b0d6492a1f476ba43c3cc999489061" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\24\c6290b9bcdf47d8f26f5f5df80ce9f4a914310" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\54\6db0091536d839762b494c40d0d77440709955" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\85\9c9b8ef32947c18dbb681abd1e3ba46ed17532" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\93\78512f7bddb3c9ec23ca8e7c8f0bcdd8ccc3d8" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\df\cfd56f444f9ae40e1082c07fe254cc547136cf" />
+    <None Include="Stephang97\Programa-OO-\.git\objects\f2\88702d2fa16d3cdf0035b15a9fcbc552cd88e7" />
+    <None Include="Stephang97\Programa-OO-\.git\packed-refs" />
+    <None Include="Stephang97\Programa-OO-\.git\refs\heads\master" />
+    <None Include="Stephang97\Programa-OO-\.git\refs\remotes\origin\HEAD" />
+    <None Include="Stephang97\Programa-OO-\.vs\Programa-OO-\v16\.suo" />
+    <None Include="Stephang97\Programa-OO-\.vs\slnx.sqlite" />
+    <None Include="Stephang97\Programa-OO-\.vs\VSWorkspaceState.json" />
+    <None Include="Stephang97\Programa-OO-\LICENSE" />
+    <None Include="Stephang97\Programa-OO-\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="AppConsole\AplicacionDeConsola\obj\Debug\netcoreapp3.1\AplicacionDeConsola.AssemblyInfo.cs" />
+    <Compile Include="AppConsole\AplicacionDeConsola\Program.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="Hotel.cs" />
+    <Compile Include="Reserva.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Stephang97\Programa-OO-\.git\objects\info\" />
+    <Folder Include="Stephang97\Programa-OO-\.git\objects\pack\" />
+    <Folder Include="Stephang97\Programa-OO-\.git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
